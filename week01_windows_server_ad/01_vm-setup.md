@@ -1,4 +1,4 @@
-### Lab 01 – Virtual Machine Setup (VMware, Server & Client)
+## Lab 01 – Virtual Machine Setup (VMware, Server & Client)
 
 ## Objective
 To simulate a real-world IT environment using virtual machines.
