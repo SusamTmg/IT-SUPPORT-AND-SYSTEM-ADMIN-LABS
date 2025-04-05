@@ -7,8 +7,6 @@ Install Active Directory Domain Services and configure a functioning company dom
 - Promoted Windows Server to a Domain Controller.
 - Installed Active Directory Domain Services (AD DS) and DNS roles.
 - Created a domain: `techsolutions.local`
-- Created Organizational Units (IT, HR, Sales, Dev)
-- Created users like `john.smith`, `jane.doe` etc.
 
 ## Purpose
 Active Directory provides centralized identity and access management in any professional IT setup.
