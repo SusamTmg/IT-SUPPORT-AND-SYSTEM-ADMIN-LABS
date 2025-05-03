@@ -2,7 +2,7 @@
 
 This document contains three Standard Operating Procedures (SOPs) created during Week 2 of my IT Support Lab Portfolio. Each SOP outlines a clear, structured method for resolving common IT issues based on simulated tickets in Jira Service Management.
 
-These reflect the Tier 1 support tasks I practiced and demonstrate how I would approach these issues in a professional IT environment.
+These reflect the support tasks I practiced and demonstrate how I would approach these issues in a professional IT environment.
 
 ---
 
