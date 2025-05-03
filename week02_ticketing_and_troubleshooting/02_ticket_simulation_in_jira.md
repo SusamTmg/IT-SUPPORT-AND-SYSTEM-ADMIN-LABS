@@ -1,6 +1,6 @@
 # 02 – Simulated Ticket Creation & Workflow in Jira
 
-This document outlines what I actually practiced during Week 2 of my IT Support Lab: using **Jira Service Management** to simulate real Tier 1 support ticket workflows.
+This document outlines what I actually practiced during Week 2 of my IT Support Lab: using **Jira Service Management** to simulate real support ticket workflows.
 
 ---
 
