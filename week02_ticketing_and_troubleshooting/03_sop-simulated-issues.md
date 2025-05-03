@@ -6,117 +6,117 @@ These reflect the Tier 1 support tasks I practiced and demonstrate how I would a
 
 ---
 
-##  SOP 1: Clearing Stuck Print Jobs in Windows
+## SOP 1: Clearing Stuck Print Jobs in Windows
 
-** Purpose**  
+**Purpose**  
 Resolve issues where print jobs are stuck in the queue due to a frozen or corrupted print spooler service.
 
-** Tools & Access Required**  
+**Tools & Access Required**  
 - Local or remote access to user’s device  
 - Administrator rights  
 - Familiarity with Windows Services and File Explorer
 
-** When to Use**  
-- Print job stuck on “Printing” or “Error”  
-- Printer is online, with no hardware faults  
-- No paper jams or ink/toner issues  
+**When to Use**  
+- Print job status stuck on “Printing” or “Error”  
+- Printer is online with no hardware faults  
+- No paper jams or ink/toner issues
 
-** Procedure**  
-1. Press `Win + R`, type `services.msc`, and press Enter  
-2. Locate the **Print Spooler** service  
-3. Right-click → Restart  
-4. While the service is stopped, go to:  
+**Procedure**  
+1. Press `Win + R`, type `services.msc`, and press Enter.  
+2. Locate the **Print Spooler** service.  
+3. Right-click the service and select **Restart**.  
+4. While the service is stopped, navigate to:  
    `C:\Windows\System32\spool\PRINTERS`  
-5. Delete all files in that folder  
-6. Reopen print queue:  
-   Control Panel → Devices and Printers → Right-click printer → “See what’s printing”  
-7. Ask user to resend the print job
+5. Delete all files inside the folder.  
+6. Go to **Control Panel > Devices and Printers**.  
+7. Right-click the affected printer and select **See what’s printing**.  
+8. Ask the user to resend the print job.
 
-** Post-Action – Verify Success**  
-- Print job leaves the queue  
-- Printer starts printing  
-- User confirms success
+**Post-Action – Verify Success**  
+- Print job is removed from the queue  
+- Printer begins printing  
+- User confirms issue is resolved
 
-** Escalation Criteria**  
+**Escalation Criteria**  
 - Spooler fails to restart  
-- Printer unreachable (network issue)  
-- Driver errors (e.g., “Driver unavailable”)
+- Printer unreachable via network  
+- Error: "Driver unavailable" or similar driver issue
 
 ---
 
-##  SOP 2: Fixing Outlook Sync Issues (Clear OST Cache)
+## SOP 2: Fixing Outlook Inbox Not Syncing (Clear OST Cache)
 
-** Purpose**  
-Resolve Outlook sync issues where the desktop app is connected but not receiving new emails.
+**Purpose**  
+To resolve issues where the Outlook desktop app is connected but not receiving new emails.
 
-** Tools & Access Required**  
+**Tools & Access Required**  
 - Access to the user’s PC or remote session  
-- Admin rights (to delete local files)  
-- Access to OWA for comparison
+- Admin rights to access and delete user data  
+- Access to Outlook Web App (OWA) for comparison
 
-** When to Use**  
-- Outlook shows “Connected” but inbox not updating  
-- OWA shows new emails  
-- Restarting Outlook didn’t help  
+**When to Use**  
+- Outlook shows “Connected” but no new emails appear  
+- OWA displays new emails  
+- Issue is limited to one device
 
-** Procedure**  
-1. Confirm Outlook status shows **Connected**  
-2. Ask user to log into [OWA](https://outlook.office365.com)  
-3. If OWA shows latest emails:  
-   - Close Outlook  
-   - Navigate to:  
-     `C:\Users\[username]\AppData\Local\Microsoft\Outlook`  
-   - Delete the `.ost` file (do not touch `.pst`)  
-   - Reopen Outlook  
-4. Allow Outlook to resync with server
+**Procedure**  
+1. Verify Outlook is showing “Connected”.  
+2. Ask user to log in to OWA (e.g., `https://outlook.office365.com`).  
+3. If new emails appear in OWA, proceed.  
+4. Close Outlook completely.  
+5. Navigate to:  
+   `C:\Users\[username]\AppData\Local\Microsoft\Outlook`  
+6. Delete the `.ost` file (do not delete `.pst`).  
+7. Reopen Outlook and allow mailbox to resync.
 
-** Post-Action – Verify Success**  
-- New emails appear in inbox  
-- Send test email and verify delivery  
-- No sync error messages
+**Post-Action – Verify Success**  
+- Inbox syncs and new emails appear  
+- Test email is received successfully  
+- No sync-related errors appear
 
-** Escalation Criteria**  
-- OWA also fails to update  
-- OST file won’t delete  
-- Outlook fails to recreate OST  
+**Escalation Criteria**  
+- OWA also not receiving emails  
+- Outlook fails to recreate the OST file  
+- Error: “Data file cannot be accessed”
 
 ---
 
-##  SOP 3: Resetting Locked or Expired User Account (Windows/AD)
+## SOP 3: Resetting a Locked or Expired User Account (Active Directory)
 
-** Purpose**  
-Restore access for users locked out due to incorrect password attempts or expired credentials.
+**Purpose**  
+To restore access for users locked out of their account due to multiple failed login attempts or password expiry.
 
-** Tools & Access Required**  
-- Active Directory Users and Computers (ADUC)  
+**Tools & Access Required**  
+- Access to Active Directory Users and Computers (ADUC)  
 - Helpdesk or Domain Admin rights  
 - User’s full name or username
 
-** When to Use**  
+**When to Use**  
 - Login error: “Account locked” or “Password expired”  
-- Account exists in AD  
-- User failed multiple login attempts  
+- User cannot log in despite correct credentials  
+- Account exists in Active Directory
 
-** Procedure**  
-1. Open ADUC  
-2. Search for the user account  
-3. Right-click → **Properties**  
-4. Under **Account** tab:  
-   - Uncheck **“Account is locked out”**  
+**Procedure**  
+1. Open **Active Directory Users and Computers (ADUC)**.  
+2. Use the search bar to find the user’s account.  
+3. Right-click the account and select **Properties**.  
+4. Under the **Account** tab:  
+   - Uncheck **Account is locked out** (if checked)  
    - Click **Reset Password**  
-   - Set temporary secure password  
-   - Check **“User must change password at next logon”**  
-5. Notify user securely (not in plaintext email)
+   - Enter a secure temporary password  
+   - Check **User must change password at next logon**  
+5. Inform the user of the temporary password using a secure method.
 
-** Post-Action – Verify Success**  
-- User logs in successfully  
-- Prompted to change password  
-- No further login issues  
+**Post-Action – Verify Success**  
+- User logs in with temporary password  
+- Prompt appears to change password  
+- User confirms successful login
 
-** Escalation Criteria**  
-- Account is disabled/corrupted  
-- Reset fails (group policy block)  
-- Account tied to system/service account  
+**Escalation Criteria**  
+- Account is disabled  
+- Password reset fails  
+- Account tied to system/service credentials  
+- User unable to change password due to policy restrictions
 
 ---
 
