@@ -36,6 +36,54 @@ The issue is marked as resolved. A clear and polite customer-facing reply inform
 
 ---
 
+### **Ticket 3 – VPN Connected, But Internal Apps Not Working**
+
+This ticket demonstrates a situation where the user was able to establish a VPN connection using Cisco AnyConnect, but internal services such as Outlook and SharePoint were not accessible. The issue was diagnosed as a DNS or routing configuration problem. After verifying connectivity and eliminating local firewall issues, the ticket was escalated to the Networking team for further investigation.
 
 
+Technician confirms the VPN tunnel is active but internal name resolution is failing. Suspects DNS or split tunneling and escalates the issue.
+
+![image](https://github.com/user-attachments/assets/037603de-0ee9-47b2-870a-e1293cb74416)
+---
+
+This screenshot shows both the internal note and public response. The technician confirms that DNS resolution is failing after VPN connection is established and documents the decision to escalate the issue to the Networking team. A clear and polite message is sent to the user, explaining the issue and assuring timely updates from IT Support.
+
+![Image](https://github.com/user-attachments/assets/37119909-767d-4552-a20f-535ca599a706)
+
+---
+
+### **Ticket 4 – Outlook Inbox Not Syncing: User Not Receiving Emails**
+
+This ticket simulates an issue where Outlook Desktop is connected, but new emails are not appearing in the user's inbox. The user confirms that emails show up correctly in Outlook Webmail (OWA), suggesting a sync issue with the local Outlook app. The technician identifies a possible OST cache corruption, instructs the user to clear the cache, and confirms resolution after mailbox sync is restored.
+
+The issue is created with a clear description and assigned a **High** priority. Internal notes show that OWA is working but Outlook isn’t syncing — pointing to a local cache issue. The technician initiates troubleshooting and monitors for results.
+
+![Image](https://github.com/user-attachments/assets/0132036b-f761-4cad-b673-853bf1f8364e)
+---
+
+The user is asked to check Outlook Webmail and follow manual instructions to delete the OST file from the local system. This supports Outlook in rebuilding its local cache and resolving the sync error.
+![Image](https://github.com/user-attachments/assets/1325a283-c1d0-4cd2-9190-66929a363614)
+---
+
+Once the issue is resolved and emails appear correctly in both Webmail and Outlook, the technician sends a polite closing message and marks the ticket as **Done**.
+![Image](https://github.com/user-attachments/assets/8be80352-5966-4ed5-9a8f-62bad85061d3)
+
+---
+
+### **Ticket 5 – Print Job Not Printing: Shared Office Printer Issue**
+
+This ticket simulates a common office issue where a print job is sent, but nothing is printed. The printer appears online with no error displayed, but the job remains in the print queue as “Printing” and never completes. The technician investigates the issue, confirms network connectivity, restarts the Print Spooler service, and successfully prints from an admin account.
+
+The user reports a printing issue involving the HP LaserJet 402dne. The job is stuck in the queue without producing output. The ticket is assigned a **Medium** priority and placed in the queue for IT support.
+![image](https://github.com/user-attachments/assets/98bdcece-4561-461a-b702-014bb272f293)
+---
+
+Internal notes show that the technician confirmed printer connectivity via IP, cleared the print queue, and restarted the Print Spooler service. A successful test print was performed.
+![image](https://github.com/user-attachments/assets/85d51c60-7c0b-41b3-bbd5-ec92162a913b)
+---
+
+A professional user-facing comment is added explaining the resolution. The ticket is marked as **Done**, with continued monitoring if issues return.
+![image](https://github.com/user-attachments/assets/d04e9d2e-8ec2-40dc-a6a8-68caf07e9007)
+
+---
 
