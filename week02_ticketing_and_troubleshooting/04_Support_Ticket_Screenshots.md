@@ -10,7 +10,6 @@ This screenshot captures a simulated Jira ticket where a user is unable to log i
 ![Image](https://github.com/user-attachments/assets/fdcdc9d3-249c-4792-815a-b89ebe36daa7)
 
 ---
----
 
 ### **Ticket 2 – VPN Not Connecting: Authentication Failed**
 
