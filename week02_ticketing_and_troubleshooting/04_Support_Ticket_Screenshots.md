@@ -9,6 +9,8 @@ Scroll down to view all screenshots with brief explanations of each step.
 This screenshot captures a simulated Jira ticket where a user is unable to log in due to multiple failed login attempts. The issue was classified under the **Active Directory** component with **Medium** priority. A professional public reply was added to inform the user about the resolution process, while an internal note documents the investigation steps taken by the IT support technician.
 ![Image](https://github.com/user-attachments/assets/fdcdc9d3-249c-4792-815a-b89ebe36daa7)
 
+---
+---
 
 ### **Ticket 2 – VPN Not Connecting: Authentication Failed**
 
