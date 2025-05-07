@@ -62,6 +62,7 @@ The issue is created with a clear description and assigned a **High** priority. 
 ---
 
 The user is asked to check Outlook Webmail and follow manual instructions to delete the OST file from the local system. This supports Outlook in rebuilding its local cache and resolving the sync error.
+
 ![Image](https://github.com/user-attachments/assets/1325a283-c1d0-4cd2-9190-66929a363614)
 ---
 
@@ -75,10 +76,12 @@ Once the issue is resolved and emails appear correctly in both Webmail and Outlo
 This ticket simulates a common office issue where a print job is sent, but nothing is printed. The printer appears online with no error displayed, but the job remains in the print queue as “Printing” and never completes. The technician investigates the issue, confirms network connectivity, restarts the Print Spooler service, and successfully prints from an admin account.
 
 The user reports a printing issue involving the HP LaserJet 402dne. The job is stuck in the queue without producing output. The ticket is assigned a **Medium** priority and placed in the queue for IT support.
+
 ![image](https://github.com/user-attachments/assets/98bdcece-4561-461a-b702-014bb272f293)
 ---
 
 Internal notes show that the technician confirmed printer connectivity via IP, cleared the print queue, and restarted the Print Spooler service. A successful test print was performed.
+
 ![image](https://github.com/user-attachments/assets/85d51c60-7c0b-41b3-bbd5-ec92162a913b)
 ---
 
