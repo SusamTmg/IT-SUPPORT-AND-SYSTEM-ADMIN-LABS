@@ -38,6 +38,8 @@ Technician documents steps taken: resetting VPN credentials, sending secure logi
 The issue is marked as resolved. A clear and polite customer-facing reply informs the user that the VPN login has been restored and thanks them for their patience.
 
 ![Image](https://github.com/user-attachments/assets/276af275-6ab2-4232-9c1d-608ba3f8d80d)
+---
+
 
 
 
