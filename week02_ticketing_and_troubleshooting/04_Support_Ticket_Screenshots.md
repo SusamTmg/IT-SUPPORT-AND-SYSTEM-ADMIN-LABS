@@ -9,6 +9,8 @@ Scroll down to view all screenshots with brief explanations of each step.
 This screenshot captures a simulated Jira ticket where a user is unable to log in due to multiple failed login attempts. The issue was classified under the **Active Directory** component with **Medium** priority. A professional public reply was added to inform the user about the resolution process, while an internal note documents the investigation steps taken by the IT support technician.
 ![Image](https://github.com/user-attachments/assets/fdcdc9d3-249c-4792-815a-b89ebe36daa7)
 
+<hr style="border: 2px solid #ccc; margin: 30px 0;" />
+
 ### **Ticket 2 – VPN Not Connecting: Authentication Failed**
 
 This set of screenshots captures a simulated ticket where the user was unable to connect to the company VPN due to authentication failure. The error message indicated incorrect credentials. The issue was resolved by checking VPN logs, resetting the user’s credentials in Active Directory, and confirming connectivity during follow-up.
@@ -36,4 +38,7 @@ Technician documents steps taken: resetting VPN credentials, sending secure logi
 The issue is marked as resolved. A clear and polite customer-facing reply informs the user that the VPN login has been restored and thanks them for their patience.
 
 ![Image](https://github.com/user-attachments/assets/276af275-6ab2-4232-9c1d-608ba3f8d80d)
+
+<hr style="border: 2px solid #ccc; margin: 30px 0;" />
+
 
