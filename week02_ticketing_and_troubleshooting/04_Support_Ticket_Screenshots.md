@@ -43,7 +43,7 @@ This ticket demonstrates a situation where the user was able to establish a VPN 
 
 Technician confirms the VPN tunnel is active but internal name resolution is failing. Suspects DNS or split tunneling and escalates the issue.
 
-![image](https://github.com/user-attachments/assets/037603de-0ee9-47b2-870a-e1293cb74416)
+![image](https://github.com/user-attachments/assets/09c31742-4569-470d-b5bb-a2a6fea7953b)
 ---
 
 This screenshot shows both the internal note and public response. The technician confirms that DNS resolution is failing after VPN connection is established and documents the decision to escalate the issue to the Networking team. A clear and polite message is sent to the user, explaining the issue and assuring timely updates from IT Support.
