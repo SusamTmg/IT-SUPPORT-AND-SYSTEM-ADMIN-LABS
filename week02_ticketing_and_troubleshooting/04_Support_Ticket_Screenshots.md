@@ -85,7 +85,7 @@ Internal notes show that the technician confirmed printer connectivity via IP, c
 ![image](https://github.com/user-attachments/assets/85d51c60-7c0b-41b3-bbd5-ec92162a913b)
 ---
 
-A professional user-facing comment is added explaining the resolution. The ticket is marked as **Done**, with continued monitoring if issues return.
+A professional user-facing comment is added explaining the resolution. The ticket is marked as **Resolved**, with continued monitoring if issues return.
 ![image](https://github.com/user-attachments/assets/d04e9d2e-8ec2-40dc-a6a8-68caf07e9007)
 
 ---
