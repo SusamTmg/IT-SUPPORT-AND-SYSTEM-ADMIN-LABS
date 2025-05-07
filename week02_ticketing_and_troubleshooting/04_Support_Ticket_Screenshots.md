@@ -4,3 +4,4 @@ This document provides visual evidence of simulated IT support tickets managed i
 
 Scroll down to view all screenshots with brief explanations of each step.
 
+![Image](https://github.com/user-attachments/assets/fdcdc9d3-249c-4792-815a-b89ebe36daa7)
