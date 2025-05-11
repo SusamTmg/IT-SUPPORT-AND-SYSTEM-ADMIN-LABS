@@ -22,7 +22,7 @@ File sharing with NTFS permissions
 **RDP and NTFS file sharing** reflect common tasks IT support handles during onboarding, system handovers, and issue resolution.
 
 
-## Subtopics / Lab Files for WEEK 1
+## Subtopics / Lab Files 
 
 `01_vm-setup.md` – VMware setup, Server & Client installation  
 `02_active-directory.md` – AD DS setup and domain controller configuration  
