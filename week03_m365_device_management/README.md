@@ -54,7 +54,6 @@ These limitations reflect real-world issues faced by IT admins when working with
 Compliance and configuration profile creation was restricted 
 ---
 ##  Linked Lab Documents
-- 01_mfa_user_setup.md – MFA enforcement + simulation
-- 02_device_enrollment_attempt.md – Attempted Intune onboarding
-- 03_sops.md – SOPs for user creation, MFA reset, and onboarding
-- 04_intune_theory_reference.md – Technical summary of Intune architecture
+- 01_Microsoft_365_MFA_User_Onboarding_&_Secure_First_Login.md – MFA enforcement + simulation
+- 02_Device_Enrollment_Attempt.md – Attempted Intune onboarding
+- 03_Intune_Theory_Reference.md – Technical summary of Intune architecture
