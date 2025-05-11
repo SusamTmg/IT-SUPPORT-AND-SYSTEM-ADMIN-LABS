@@ -7,6 +7,7 @@ The goal is to demonstrate a practical understanding of user security policies, 
 ### **User Creation Summary – Emily Taylor**
 This screenshot shows the final step of creating a Microsoft 365 cloud user (Emily Taylor) in the Admin Center. It includes all key configurations: the custom username, license assignment (Office 365 E5 – no Teams), region (Australia), and default role (no admin privileges).
 This step is important in real IT support because creating cloud users with proper access, licensing, and regions is often part of onboarding workflows — especially in hybrid or remote companies.
+
 ![Image](https://github.com/user-attachments/assets/fc6f44b7-7362-44a8-ad51-3d6a672ddbd5)
 ---
 
