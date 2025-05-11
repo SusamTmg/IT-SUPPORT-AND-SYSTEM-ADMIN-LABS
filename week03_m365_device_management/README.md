@@ -1,4 +1,4 @@
-# Week 3 – Microsoft 365 Device Management & Intune Simulation
+# Microsoft 365 Device Management & Intune Simulation
 
 This lab focused on simulating enterprise Microsoft 365 identity and endpoint management using Microsoft Entra ID (formerly Azure AD), Intune, and virtual machines. The objective was to understand how organizations secure devices, enforce compliance, and manage users through cloud-based tools.
 
