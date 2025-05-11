@@ -1,6 +1,6 @@
-**Week 1 – Windows Server, Active Directory, and Domain Configuration**
+**Windows Server, Active Directory, and Domain Configuration**
 
-In Week 1 of my IT Support Self-Training Program, I simulated a real company IT environment using VMware.
+In this IT Support Self-Training Labs, I simulated a real company IT environment using VMware.
 This included setting up a Windows Server 2019 domain controller, configuring Active Directory, creating users/groups, applying GPOs, and simulating real-world IT support tasks such as password resets, RDP setup, and file sharing.
 
 **Skills Practiced:**
