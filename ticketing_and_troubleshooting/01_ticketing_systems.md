@@ -2,7 +2,7 @@
 
 An IT ticketing system is a tool used by technical support teams to log, track, manage, and resolve user-reported issues. It helps IT departments organize their workflow, prioritize incidents, assign tasks, and maintain accountability across multiple support levels.
 
-In Week 2 of my IT Support Lab, I used **Jira Service Management** to simulate how real companies manage technical issues using a structured ticketing process.
+I used **Jira Service Management** to simulate how real companies manage technical issues using a structured ticketing process.
 
 ---
 
