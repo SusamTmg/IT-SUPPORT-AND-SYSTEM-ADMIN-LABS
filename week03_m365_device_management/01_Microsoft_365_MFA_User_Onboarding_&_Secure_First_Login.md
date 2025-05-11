@@ -42,7 +42,7 @@ To simulate the onboarding process for a new employee who is required to registe
 
 ### 3. Completed MFA registration
 - Used **Microsoft Authenticator app**
-  - Opened app > Added “Work or School Account” > Scanned QR code
+- Opened app > Added “Work or School Account” > Scanned QR code
 - Successfully approved test push notification
 
 ---
@@ -50,15 +50,7 @@ To simulate the onboarding process for a new employee who is required to registe
 ### 4. Verified MFA + password reset
 - Logged in again to confirm new password + MFA works
 - Accessed Microsoft 365 dashboard as Emily
-- Visited [https://mysignins.microsoft.com](https://mysignins.microsoft.com) to confirm MFA was active
-
----
-
-## Screenshots
-- `emily-mfa-enabled.png`: MFA status in Admin Center
-- `mfa-registration-screen.png`: First-time registration prompt
-- `authenticator-success.png`: Successful push notification
-- `password-change-confirmed.png`: Password updated after login
+- Visited [https://mysignins.microsoft.com](https://mysignins.microsoft.com) to confirm MFA was active 
 
 ---
 
