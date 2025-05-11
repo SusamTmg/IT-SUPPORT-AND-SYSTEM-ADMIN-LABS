@@ -1,6 +1,6 @@
 # Troubleshooting Log
 
-This log documents all the technical issues encountered in this IT Support Self-Training Program and the step-by-step solutions applied. All scenarios were replicated in a virtual lab setup using Windows Server 2019 and Windows 10 client.
+This log documents all the technical issues encountered and the step-by-step solutions applied. All scenarios were replicated in a virtual lab setup using Windows Server 2019 and Windows 10 client.
 
 ---
 
