@@ -33,7 +33,7 @@ This is a standard task for IT admins during new employee onboarding or when iss
 
 ---
 
-## 🚧 What Went Wrong (Root Cause)
+## What Went Wrong (Root Cause)
 
 | Issue | Explanation |
 |-------|-------------|
