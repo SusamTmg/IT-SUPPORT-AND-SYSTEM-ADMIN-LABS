@@ -1,4 +1,4 @@
-01_Microsoft_365_MFA_User_Onboarding_
+## 01_Microsoft_365_MFA_User_Onboarding
 
 This document outlines the process I followed to enforce Multi-Factor Authentication (MFA) for a Microsoft 365 user account using the legacy per-user method, simulate a real user's first login, and test successful MFA registration and password reset.
 
