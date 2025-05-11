@@ -1,6 +1,6 @@
-# Week 2 – IT Support Ticketing & Troubleshooting
+# IT Support Ticketing & Troubleshooting
 
-In Week 2 of my IT Support Lab Portfolio, I simulated how real IT teams use ticketing systems to manage and resolve user issues. Using Jira Service Management, I created and resolved realistic support tickets involving login failures, VPN problems, printer spooler issues, and Outlook sync errors.
+In this lab, I simulated how real IT teams use ticketing systems to manage and resolve user issues. Using Jira Service Management, I created and resolved realistic support tickets involving login failures, VPN problems, printer spooler issues, and Outlook sync errors.
 
 I also wrote SOPs and end-user-friendly explanations based on each ticket, just like IT support teams do in production environments.
 
