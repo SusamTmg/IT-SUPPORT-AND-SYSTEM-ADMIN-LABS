@@ -1,28 +1,19 @@
-# IT-Support-Lab-Portfolio-
-A 10-week hands-on IT lab portfolio, independently developed to simulate enterprise environments and showcase practical skills in system administration, Active Directory, Microsoft 365, and endpoint security.
+# IT-System-Lab-Portfolio-
+A hands-on IT lab portfolio, independently developed to simulate enterprise IT environments and demonstrate practical skills in system administration, Active Directory, Microsoft 365 identity management, and endpoint security.
 This portfolio is developed from scratch to reflect the exact tasks IT professionals perform in the workplace — with structured weekly modules, practical labs, and documentation of every fix, misconfiguration, and lesson learned along the way.
+
+---
 
 ## Objective
 
-To build a strong, practical foundation in IT Support by simulating real company scenarios:
+To build a strong, practical foundation in system administration and enterprise IT operations by simulating real company scenarios:
 
 - Managing Windows Server & Clients in a virtual lab  
-- Administering Microsoft 365 and Azure AD users  
+- Administering Microsoft 365 and Entra ID (Azure AD) users  
 - Enforcing Group Policies (GPO), backups, Intune device management  
 - Troubleshooting login issues, DNS failures, RDP access, and endpoint security  
 
 This portfolio is built with **curiosity and consistency**, documenting not just what worked — but how things broke, how they were fixed, and what I learned.
-
----
-
-## Structure
-
-Each week contains:
--  **Real-world IT tasks**  
--  **Step-by-step hands-on labs**  
--  **Troubleshooting logs (mistakes + fixes)**  
--  **Lessons learned**
-
 
 ---
 
@@ -34,7 +25,7 @@ I wanted to learn by doing — not just watching. By building and breaking my ow
 - Documenting issues clearly  
 - Communicating technical steps and decisions like a real support engineer  
 
-This portfolio reflects my hands-on journey into IT support. I created it to stay accountable, learn by doing, and build confidence beyond just theory and certifications.
+This portfolio reflects my hands-on journey into IT system administration and enterprise infrastructure. I created it to stay accountable, learn by doing, and build real-world confidence beyond theory and certifications.
 
 ---
 
