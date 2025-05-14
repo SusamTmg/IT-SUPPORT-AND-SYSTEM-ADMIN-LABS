@@ -51,7 +51,6 @@ I have simulated those tasks here, showing my ability to work with:
 |------------------------|-------------|
 | `lab_summary.md`       | Full breakdown of the lab steps with screenshots and explanations |
 | `commands/`            | PowerShell and CMD commands used during the lab |
-| `screenshots/`         | Embedded inside `lab_summary.md` for visual walk-through |
 
 ---
 
