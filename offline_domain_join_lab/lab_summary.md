@@ -73,7 +73,7 @@ This confirms the lockout policy is functioning as expected and that domain secu
 ![image](https://github.com/user-attachments/assets/2771295c-afa9-4346-a61a-b167ee9e30a6)
 
 ---
-### **Figure 1.9: PowerShell Summary of Locked-Out Accounts**
+### **Figure 1.10: PowerShell Summary of Locked-Out Accounts**
 A PowerShell command was executed on PLABDC01 to display a list of users currently locked out of their accounts using:
 Search-ADAccount -LockedOut
 
@@ -82,9 +82,8 @@ This is a real-world support task — IT staff use it to identify which users ar
 ![image](https://github.com/user-attachments/assets/9fd06d2d-10f8-4b9a-9696-1c46ac7a0a9a)
 
 ---
-### **Figure 1.10 & 1.11: Listing Disabled User Accounts**
-The command:
-Search-ADAccount -AccountDisabled
+### **Figure 1.11 & 1.12: Listing Disabled User Accounts**
+The command:Search-ADAccount -AccountDisabled
 
 was run to list all domain user accounts that are disabled.
 This is important for auditing — disabled accounts often belong to former employees or deactivated test users. Regular checks help reduce security risks.
@@ -93,9 +92,8 @@ This is important for auditing — disabled accounts often belong to former empl
 ![image](https://github.com/user-attachments/assets/37ed5862-daef-4dd1-ba86-fe5151e865a4)
 
 ---
-### **Figure 1.12 & 1.13: Listing Inactive User Accounts**
-Using:
-Search-ADAccount -AccountInactive -TimeSpan 1.00:00:00
+### **Figure 1.13 & 1.14: Listing Inactive User Accounts**
+Using:Search-ADAccount -AccountInactive -TimeSpan 1.00:00:00
 
 the system returned a list of users who haven’t logged in for the past 1 day.
 Inactive accounts are common in large networks, and auditing them helps IT clean up unused profiles or review why the user has been inactive.
@@ -104,28 +102,28 @@ Inactive accounts are common in large networks, and auditing them helps IT clean
 ![image](https://github.com/user-attachments/assets/54be3d95-c8e6-434e-a343-d03e48f42ab1)
 
 ---
-### **Figure 1.14: Configuring 'Allow Log On Locally' Rights**
+### **Figure 1.15: Configuring 'Allow Log On Locally' Rights**
 The User Rights Assignment setting "Allow log on locally" was accessed on PLABDC01. Specific security groups were reviewed or added to control who can sign in at the machine directly.
 This is an important part of Windows Server security — admins often restrict local login access to prevent unauthorized physical access to critical systems.
 
 ![image](https://github.com/user-attachments/assets/e28210f8-1a10-4ac4-a7be-d96ec8aba1a3)
 
 ---
-### **Figure 1.15: Configuring RDP Access via Group Policy**
+### **Figure 1.16: Configuring RDP Access via Group Policy**
 The "Allow log on through Remote Desktop Services" policy was modified to include specific user groups.
 This enables remote users (like IT staff or remote workers) to securely access systems via RDP — a must-have in modern enterprise environments with hybrid work.
 
 ![image](https://github.com/user-attachments/assets/72fb4ff9-fbf8-40be-9f12-887d916bc919)
 
 ---
-### **Figure 1.16: Remote Desktop Users Group Configuration**
+### **Figure 1.17: Remote Desktop Users Group Configuration**
 The Remote Desktop Users group was edited using the system settings GUI to add authorized users.
 This step is often used alongside group policies for finer access control. It ensures only approved users can connect remotely.
 
 ![image](https://github.com/user-attachments/assets/8df4ea2a-ea9e-4495-9075-1119a018c5ab)
 
 ---
-### **Figure 1.17: UAC Prompt for Administrative Permissions**
+### **Figure 1.18: UAC Prompt for Administrative Permissions**
 While making system-level changes, a User Account Control (UAC) prompt appeared, asking for administrator rights.
 This shows that the actions performed — such as editing login permissions — required elevated privileges, confirming that you were performing real admin-level tasks in the system.
 
