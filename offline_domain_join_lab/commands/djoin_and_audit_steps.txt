@@ -1,0 +1,33 @@
+===============================
+Offline Domain Join Commands
+===============================
+
+# Run on Domain Controller (PLABDC01)
+djoin /provision /domain practicelabs.com /machine PLABSA01 /savefile C:\ODJ\request.txt
+
+# Share the folder containing 'request.txt' with the client (e.g. via network or USB)
+
+# Run on Client Machine (PLABSA01)
+djoin /requestODJ /loadfile request.txt /windowspath C:\Windows /localos
+shutdown /r /t 0
+
+
+===============================
+PowerShell - User Account Auditing
+===============================
+
+# Run on Domain Controller (PLABDC01)
+Search-ADAccount -LockedOut
+Search-ADAccount -AccountDisabled
+Search-ADAccount -AccountInactive -UsersOnly -TimeSpan 1.00:00:00 | ft name
+
+
+===============================
+Graphical Tools Used
+===============================
+
+# Open Local Security Policy
+secpol.msc
+
+# Open Active Directory Users and Computers
+dsa.msc
