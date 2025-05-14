@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/e9a3e157-e0d6-413a-b596-a1955c84bfc2)# Lab Summary – Offline Domain Join and User Account Management
+# Lab Summary – Offline Domain Join and User Account Management
 
 This lab simulates a scenario where a Windows 10 client (PLABSA01) is joined to a Windows Server domain controller (PLABDC01) using an Offline Domain Join. It also includes account lockout policy enforcement, user account auditing with PowerShell, and secure login configuration via User Rights Assignment. These are foundational identity management skills expected in IT support and system admin roles.
 
