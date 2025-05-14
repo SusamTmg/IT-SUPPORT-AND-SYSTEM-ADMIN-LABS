@@ -31,7 +31,7 @@ These are daily tasks for System Administrators, Infrastructure Engineers, and I
 
 ---
 
-## 🛠 Tools & Technologies
+## Tools & Technologies
 
 | Category                 | Tools / Concepts Used                               |
 |--------------------------|-----------------------------------------------------|
