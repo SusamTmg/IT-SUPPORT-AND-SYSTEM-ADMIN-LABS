@@ -1,4 +1,4 @@
-# IT-System-Lab-Portfolio-
+# IT-Support-AND-System-Admin-Lab-Portfolio-
 A hands-on IT lab portfolio, independently developed to simulate enterprise IT environments and demonstrate practical skills in system administration, Active Directory, Microsoft 365 identity management, and endpoint security.
 This portfolio is developed from scratch to reflect the exact tasks IT professionals perform in the workplace — with structured weekly modules, practical labs, and documentation of every fix, misconfiguration, and lesson learned along the way.
 
