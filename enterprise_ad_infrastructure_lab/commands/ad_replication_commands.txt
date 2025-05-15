@@ -1,0 +1,80 @@
+===============================
+Multi-DC and RODC Setup
+===============================
+
+# ===================================
+# On Primary DC (PLABDC01)
+# ===================================
+
+# Create IFM media for second DC promotion
+ntdsutil
+activate instance ntds
+ifm
+create sysvol full c:\ifm
+quit
+quit
+
+# Share the IFM folder so PLABDM01 can access it
+# (Performed through File Explorer sharing settings)
+
+# ===================================
+# On Second DC (PLABDM01)
+# ===================================
+
+# Install ADDS role (can be done via Server Manager GUI or PowerShell)
+Install-WindowsFeature AD-Domain-Services
+
+# Promote to DC using IFM
+# (Launched via Server Manager > Promote this server to a domain controller)
+# Use "Install from media" option and select shared IFM folder
+
+# ===================================
+# On Read-Only DC (PLABSA01)
+# ===================================
+
+# Install ADDS role
+Install-WindowsFeature AD-Domain-Services
+
+# Promote as a Read-Only Domain Controller via PowerShell
+Install-ADDSDomainController `
+-DomainName "practicelabs.com" `
+-InstallDns `
+-SiteName "Default-First-Site-Name" `
+-Credential (Get-Credential) `
+-ReadOnlyReplica `
+-ReplicationSourceDC "PLABDC01" `
+-Force
+
+# ===================================
+# Password Replication Policy Setup (RODC)
+# ===================================
+
+# Open ADUC > Navigate to PLABSA01 > Properties > Password Replication Policy
+# Add the "VPN Users" group to the Allowed RODC Password Replication Group
+
+# Create a group for users that need login access through RODC
+# In ADUC: Right-click > New > Group > "VPN Users"
+
+# Add users to VPN Users group
+# In ADUC: Right-click > Properties > Members > Add
+
+# ===================================
+# Login Verification
+# ===================================
+
+# On client (PLABWIN10), login as a domain user who is part of VPN Users group
+# Successful login means PRP and replication are working as expected
+
+# ===================================
+# Tools Used
+# ===================================
+
+# Command Line Tools
+ipconfig
+ntdsutil
+Install-WindowsFeature
+Install-ADDSDomainController
+
+# GUI Tools
+Active Directory Users and Computers (dsa.msc)
+Server Manager
