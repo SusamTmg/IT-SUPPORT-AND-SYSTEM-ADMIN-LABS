@@ -1,19 +1,38 @@
 # IT-Support-AND-System-Admin-Lab-Portfolio-
-A hands-on IT lab portfolio, independently developed to simulate enterprise IT environments and demonstrate practical skills in system administration, Active Directory, Microsoft 365 identity management, and endpoint security.
-This portfolio is developed from scratch to reflect the exact tasks IT professionals perform in the workplace — with structured weekly modules, practical labs, and documentation of every fix, misconfiguration, and lesson learned along the way.
+
+A hands-on portfolio simulating real-world IT environments — focused on support workflows, identity management, system administration, and Microsoft technologies.
+
+Built from scratch to mirror the responsibilities of entry-level IT Support and Junior Sysadmin roles, this project documents every lab, fix, failure, and breakthrough — with clarity and purpose.
+
 
 ---
 
 ## Objective
 
-To build a strong, practical foundation in system administration and enterprise IT operations by simulating real company scenarios:
+To build job-ready expertise in modern IT support and systems administration by simulating real-world company scenarios:
 
-- Managing Windows Server & Clients in a virtual lab  
-- Administering Microsoft 365 and Entra ID (Azure AD) users  
-- Enforcing Group Policies (GPO), backups, Intune device management  
-- Troubleshooting login issues, DNS failures, RDP access, and endpoint security  
+- Managing Windows Server environments (AD DS, DNS, GPO, RDP)
+- Administering Microsoft 365 / Entra ID (Azure AD)
+- Implementing Group Policies, RODC setup, and IFM-based DC promotion
+- Practicing PowerShell scripting for account, policy, and access management
+- Troubleshooting login failures, DNS issues, RDP access, NTFS permissions
+- Preparing for certifications: **MD-102**, **AZ-900**
 
-This portfolio is built with **curiosity and consistency**, documenting not just what worked — but how things broke, how they were fixed, and what I learned.
+This portfolio reflects a mindset of **discipline and deep curiosity**, documenting not just what worked — but *what broke, how it was fixed,* and *what was learned* along the way.
+
+---
+
+## What’s Included
+
+- Active Directory setup and domain join configuration  
+- Group Policy enforcement and security settings  
+- Multi-DC setup using IFM and Read-Only Domain Controller (RODC)  
+- Microsoft 365 MFA configuration with Conditional Access  
+- Troubleshooting account lockouts, Outlook sync, and RDP access  
+- Ticket simulations and SOP documentation  
+- PowerShell scripting for admin-level operations  
+
+> Lab includes: **screenshots, fix logs, SOPs, and command documentation**
 
 ---
 
@@ -34,8 +53,7 @@ This portfolio reflects my hands-on journey into IT system administration and en
 This lab is only the beginning. In the coming months, I plan to:
 
 - Expand into more Microsoft 365 & Azure administration labs  
-- Explore Intune policies and Autopilot deployment  
-- Start practicing mock tickets using Jira/ServiceNow  
+- Explore Intune policies and Autopilot deployment
 - Pursue the **MD-102** and **AZ-900** certifications  
 
 ---
