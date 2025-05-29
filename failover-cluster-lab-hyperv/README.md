@@ -76,7 +76,7 @@ They include:
 failover-cluster-lab-hyperv/
 │
 ├── README.md
-├── diagrams.md/
+├── Architecture Diagrams.md/
 ├── screenshots.md/
 │  
 
