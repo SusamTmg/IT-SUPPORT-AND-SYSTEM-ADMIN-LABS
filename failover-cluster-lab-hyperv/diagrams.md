@@ -6,11 +6,10 @@ These diagrams provide a visual breakdown of the enterprise-grade high availabil
 
 ## Failover Cluster System Architecture with IP Addresses
 
-![Image](https://github.com/user-attachments/assets/e1f67b19-1d36-4fba-9753-2371b4182e8c)
-
+![Image](https://github.com/user-attachments/assets/2cca3330-e11a-46cb-b6b1-6702a805cb10)
 This diagram shows the full system topology of the virtual lab setup. It illustrates how each component is logically and physically interconnected within the network using distinct subnets for redundancy and isolation.
 
-### 🔍 What This Diagram Shows:
+### What This Diagram Shows:
 - **TamangVH1** and **TamangVH2** are the two Hyper-V failover cluster nodes responsible for running virtual machines.
 - A dedicated **Domain Controller (TamangDC)** handles domain authentication, DNS, and joins all nodes to the `tamang.local` domain.
 - **TamangStorage** acts as an iSCSI target server, providing shared VHDX disks accessed by the cluster nodes.
@@ -31,7 +30,7 @@ This architecture represents real-world enterprise systems that require uptime, 
 
 This diagram visually explains what happens when one of the Hyper-V cluster nodes fails. It demonstrates the automated failover process that maintains continuous service availability.
 
-### 🔍 What This Diagram Shows:
+### What This Diagram Shows:
 - The cluster initially runs VM roles (e.g., `VM1`, `VM2`) on **TamangVH1**.
 - When **TamangVH1** becomes unavailable (e.g., due to hardware failure or maintenance), the **heartbeat signal is lost**.
 - The cluster detects the failure and immediately shifts control to **TamangVH2**.
