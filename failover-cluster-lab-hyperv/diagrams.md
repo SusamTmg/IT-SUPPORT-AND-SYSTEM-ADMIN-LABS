@@ -7,6 +7,7 @@ These diagrams provide a visual breakdown of the enterprise-grade high availabil
 ## Failover Cluster System Architecture with IP Addresses
 
 ![Image](https://github.com/user-attachments/assets/2cca3330-e11a-46cb-b6b1-6702a805cb10)
+
 This diagram shows the full system topology of the virtual lab setup. It illustrates how each component is logically and physically interconnected within the network using distinct subnets for redundancy and isolation.
 
 ### What This Diagram Shows:
