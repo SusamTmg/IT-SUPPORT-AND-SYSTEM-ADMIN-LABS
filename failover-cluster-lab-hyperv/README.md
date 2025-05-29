@@ -77,9 +77,6 @@ failover-cluster-lab-hyperv/
 │
 ├── README.md
 ├── diagrams.md/
-│   ├── architecture-overview.png
-│   ├── role-migration-diagram.png
-│
 ├── screenshots.md/
 │  
 
