@@ -60,7 +60,7 @@ This project simulates a **production-grade high availability infrastructure** f
 
 ## Screenshots
 
-Screenshots are organized under `/screenshots` and `/diagrams`.  
+Screenshots are organized under `/screenshots.md`.  
 They include:
 - IP schema and network plan
 - iSCSI target configuration
@@ -82,6 +82,4 @@ failover-cluster-lab-hyperv/
 │
 ├── screenshots.md/
 │  
-│
-
 
