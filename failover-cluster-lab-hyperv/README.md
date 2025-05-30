@@ -77,6 +77,6 @@ failover-cluster-lab-hyperv/
 │
 ├── README.md
 ├── Architecture Diagrams.md/
-├── screenshots.md/
+├── Lab-screenshots.md/
 │  
 
