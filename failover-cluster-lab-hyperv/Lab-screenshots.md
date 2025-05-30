@@ -1,7 +1,5 @@
 # High Availability Infrastructure Lab with Hyper-V, Failover Clustering, and iSCSI
 
-This lab project demonstrates the setup of a fully functional enterprise-grade high availability (HA) infrastructure using Windows Server, Hyper-V, Failover Clustering, and iSCSI-based shared storage. 
-
 The simulation was performed in a nested virtualization environment with four virtual machines:  
 - `TamangDC` (Domain Controller),  
 - `TamangStorage` (iSCSI Target Server),  
