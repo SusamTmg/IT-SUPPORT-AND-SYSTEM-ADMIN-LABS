@@ -1,6 +1,6 @@
 # Failover Cluster & Virtualization Lab (Hyper-V + iSCSI + Windows Server)
 
-This project simulates a **production-grade high availability infrastructure** for a company’s HR department. It uses **Hyper-V**, **Windows Server**, **Active Directory**, **iSCSI shared storage**, and **Windows Failover Clustering** to build a resilient and redundant virtual environment.
+This project simulates a **production-grade high availability infrastructure** for a company’s HR department. It uses **Hyper-V**, **Windows Server**, **Active Directory**, **iSCSI (Internet Small Computer System Interface) shared storage**, and **Windows Failover Clustering** to build a resilient and redundant virtual environment.
 
 ---
 
