@@ -1,8 +1,8 @@
 # IT-Support-AND-System-Admin-Lab-Portfolio-
 
-A hands-on portfolio simulating real-world IT environments — focused on support workflows, identity management, system administration, and Microsoft technologies.
+A hands-on portfolio simulating real-world IT environments: focused on support workflows, identity management, system administration, and Microsoft technologies.
 
-Built from scratch to mirror the responsibilities of entry-level IT Support and Junior Sysadmin roles, this project documents every lab, fix, failure, and breakthrough — with clarity and purpose.
+Built from scratch to mirror the responsibilities of entry-level IT Support and Junior Sysadmin roles, this project documents every lab, fix, failure, and breakthrough with clarity and purpose.
 
 
 ---
@@ -18,7 +18,7 @@ To build job-ready expertise in modern IT support and systems administration by 
 - Troubleshooting login failures, DNS issues, RDP access, NTFS permissions
 - Preparing for certifications: **MD-102**, **AZ-900**
 
-This portfolio reflects a mindset of **discipline and deep curiosity**, documenting not just what worked — but *what broke, how it was fixed,* and *what was learned* along the way.
+This portfolio reflects a mindset of **discipline and deep curiosity**, documenting not just what worked but, *what broke, how it was fixed,* and *what was learned* along the way.
 
 ---
 
@@ -58,4 +58,4 @@ This lab is only the beginning. In the coming months, I plan to:
 
 ---
 
-> If you're a mentor reviewing this — thank you. I’m not perfect, but I’m persistent, and I believe skill comes from practice. This repo is my practice, and I’m just getting started.
+> If you're a mentor reviewing this, thank you. I’m not perfect, but I’m persistent, and I believe skill comes from practice. This repo is my practice, and I’m just getting started.
