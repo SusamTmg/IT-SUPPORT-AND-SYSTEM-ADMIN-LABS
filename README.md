@@ -16,7 +16,7 @@ To build job-ready expertise in modern IT support and systems administration by 
 - Implementing Group Policies, RODC setup, and IFM-based DC promotion
 - Practicing PowerShell scripting for account, policy, and access management
 - Troubleshooting login failures, DNS issues, RDP access, NTFS permissions
-- Preparing for certifications: **MD-102**, **AZ-900**
+- 
 
 This portfolio reflects a mindset of **discipline and deep curiosity**, documenting not just what worked but, *what broke, how it was fixed,* and *what was learned* along the way.
 
@@ -54,7 +54,6 @@ This lab is only the beginning. In the coming months, I plan to:
 
 - Expand into more Microsoft 365 & Azure administration labs  
 - Explore Intune policies and Autopilot deployment
-- Pursue the **MD-102** and **AZ-900** certifications  
 
 ---
 
