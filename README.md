@@ -16,7 +16,6 @@ To build job-ready expertise in modern IT support and systems administration by 
 - Implementing Group Policies, RODC setup, and IFM-based DC promotion
 - Practicing PowerShell scripting for account, policy, and access management
 - Troubleshooting login failures, DNS issues, RDP access, NTFS permissions
-- 
 
 This portfolio reflects a mindset of **discipline and deep curiosity**, documenting not just what worked but, *what broke, how it was fixed,* and *what was learned* along the way.
 
